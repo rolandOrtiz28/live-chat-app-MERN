@@ -1,36 +1,45 @@
-Hello! 
 
-To The Root File has 2 Files which is the CLIENTSIDE AND SERVERSIDE.
+Hi there!
 
-How to run:
+Here are the instructions on how to run the client-side and server-side files:
 
-Client-side: 
-cd clientside
-then run
-npm run dev in the root file of the clientside
-Paste this in the browser to see the app:
-http://localhost:5173/
+Client-side:
+
+1.Open your terminal and navigate to the "clientside" directory.
+2.Run the command "npm run dev" in the root directory of the clientside.
+3.Paste the following URL in your browser to see the app: http://localhost:5173/
 
 Server-side:
-cd serverside
-then run
-nodemon start in the root file of the serverside
 
-You can create you own account then open a new browser then log in as Guest to test the live chat! 
+1.Open your terminal and navigate to the "serverside" directory.
+2.Run the command "nodemon start" in the root directory of the serverside.
+3.To test the live chat functionality, you can create your own account and then open a new browser to log in as a guest.
 
-Enjoy Chatting!
-
+Enjoy chatting!
 
 Features:
-Simple CRUD
-Login and Register
-Search Contact
-Profile Modal
-Live Notification
+
+Simple CRUD operations
+Login and Register functionality
+Search contacts
+Profile modal
+Live notifications
 Loading function
 Live chat
-Group Chat
+Group chat
+Work in progress:
+
+Updating profile functionality
+Emojis integration
+
+you can add an .env file in the root file of the serverside then add this environment variables:
+JWT_SECRET=rolandortiz
+
+DB_URL=mongodb+srv://rolandWeb:rolandortiz281995@rpocluster.3gsyr5o.mongodb.net/?retryWrites=true&w=majority
+
+CLOUDINARY_CLOUD_NAME=dbzuuuvue
+CLOUDINARY_KEY=521197497123861
+CLOUDINARY_SECRET=w_-29hP6MzdLZLI8yN3f9nF3otw
 
 
-Update Profile(Still on process)
-Emojis(Still on process)
+SECRET=chat-app
