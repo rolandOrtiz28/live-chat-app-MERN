@@ -6,6 +6,7 @@ Here are the instructions on how to run the client-side and server-side files:
 Client-side:
 
 1.Open your terminal and navigate to the "clientside" directory.
+2.Run 'npm install --save-dev vite --legacy-peer-deps'.
 2.Run the command "npm run dev" in the root directory of the clientside.
 3.Paste the following URL in your browser to see the app: http://localhost:5173/
 
