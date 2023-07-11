@@ -89,7 +89,7 @@ const MyChats = ({ fetchAgain }) => {
                 {chats ? (
                     <Stack overflowY="scroll">
                         {chats.map((chat) => {
-                            console.log(chat)
+
                             return (
                                 <Box
                                     onClick={() => setSelectedChat(chat)}
@@ -106,7 +106,7 @@ const MyChats = ({ fetchAgain }) => {
                                             ? getSender(loggedUser, chat.users)
                                             : chat.chatName}
                                     </Text>
-                                    {chat.latestMessage && (
+                                    {chat.latestMessage && chat.latestMessage.length > 0 && (
                                         <Text fontSize="xs">
                                             <b>{chat.latestMessage[0].sender.firstName} : </b>
                                             {chat.latestMessage[0].text.length > 50
